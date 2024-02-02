@@ -1,13 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class AdditionCalculator extends JFrame {
+public class SimpleInterestCalculator extends JFrame {
     JTextField p = new JTextField();
     JTextField t = new JTextField();
     JTextField r = new JTextField();
     JTextField i = new JTextField();
 
-    AdditionCalculator() {
+    SimpleInterestCalculator() {
         setTitle("Simple Interest CALCULATOR");
         setSize(400, 300);
         setLayout(new GridLayout(5, 2));
@@ -27,7 +27,7 @@ public class AdditionCalculator extends JFrame {
         setVisible(true);
     }
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AdditionCalculator::new);
+        SwingUtilities.invokeLater(SimpleInterestCalculator::new);
     }
 
 
